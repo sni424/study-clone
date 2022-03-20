@@ -1,29 +1,28 @@
-import styled from "styled-components";
 import Header from "../../components/Header";
 import SearchBar from "../../components/Search";
-import mainbg from '../../asset/Image/main-bg.png'
-
-const Container = styled.div`
-width: 100%;
-height: 100%;
-`;
-const BackImg = styled.div`
-background-image: url(${mainbg});
-max-width: 1980px;
-height: 50vw;
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center;
-`;
+import programmer from '../../asset/image/programmer.png'
+import {S} from "./style";
+import Count from "../../components/Count";
+import Footer from "../../components/Footer";
 
 const Main = () => {
   return (
-    <Container >
-      <BackImg>
+    <S.Container >
+      <S.BackImg>
       <Header />
       <SearchBar />
-      </BackImg>
-    </Container>
+      <S.ThirdDiv>
+        <S.Img src={programmer} alr="progammer" />
+        <S.TextDiv>
+          #3월8일<br />
+#세계여성의날<br />
+#에이다러브레이스<br />
+        </S.TextDiv>
+      </S.ThirdDiv>
+      </S.BackImg>
+      <Count />
+      <Footer />
+    </S.Container>
   )
 }
 
