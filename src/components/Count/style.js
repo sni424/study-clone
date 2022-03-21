@@ -1,8 +1,8 @@
 import styled from "styled-components";
+import "../../App.css";
 
 export const S = {
   Container: styled.div`
-    width: 60%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -24,5 +24,14 @@ export const S = {
     border-left: 1px solid #8c8c8c;
     text-align: center;
     padding: 0 40px;
+  `,
+  WordSpan: styled.span`
+    display: block;
+    font-size: 0.985rem;
+  `,
+  NumberSpan: styled.span`
+    color: #252525;
+    font-size: 28px;
+    display: inline-block;
   `,
 };

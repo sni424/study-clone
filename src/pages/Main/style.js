@@ -13,7 +13,7 @@ export const S = {
     background-repeat: no-repeat;
     background-position: center;
   `,
-  ThirdDiv: styled.div`
+  SecondDiv: styled.div`
     padding-top: 70px;
     width: 60%;
     margin: 0 auto;
@@ -32,5 +32,9 @@ export const S = {
     font-weight: 700;
     bottom: 0;
     padding-left: 30px;
+  `,
+  ThirdDiv: styled.div`
+    width: 60%;
+    margin: 0 auto;
   `,
 };

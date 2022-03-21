@@ -2,8 +2,9 @@ import Header from "../../components/Header";
 import SearchBar from "../../components/Search";
 import programmer from '../../asset/image/programmer.png'
 import {S} from "./style";
-import Count from "../../components/Count";
+import Count from "../../components/count";
 import Footer from "../../components/Footer";
+import Eblock from "../../components/arround-projuect";
 
 const Main = () => {
   return (
@@ -11,16 +12,19 @@ const Main = () => {
       <S.BackImg>
       <Header />
       <SearchBar />
-      <S.ThirdDiv>
+      <S.SecondDiv>
         <S.Img src={programmer} alr="progammer" />
         <S.TextDiv>
           #3월8일<br />
 #세계여성의날<br />
 #에이다러브레이스<br />
         </S.TextDiv>
-      </S.ThirdDiv>
+      </S.SecondDiv>
       </S.BackImg>
+<S.ThirdDiv>
       <Count />
+      <Eblock />
+      </S.ThirdDiv>
       <Footer />
     </S.Container>
   )
