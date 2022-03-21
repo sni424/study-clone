@@ -5,6 +5,7 @@ import {S} from "./style";
 import Count from "../../components/count";
 import Footer from "../../components/Footer";
 import Eblock from "../../components/arround-projuect";
+import ReProject from "../../components/recommend-project";
 
 const Main = () => {
   return (
@@ -24,6 +25,7 @@ const Main = () => {
 <S.ThirdDiv>
       <Count />
       <Eblock />
+      <ReProject />
       </S.ThirdDiv>
       <Footer />
     </S.Container>
