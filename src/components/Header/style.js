@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const S = {
   HeaderDiv: styled.div`
-    width: 60%;
+    width: 62%;
     height: 100%;
     display: flex;
     align-items: center;
@@ -10,7 +10,7 @@ export const S = {
     margin: 35px auto;
   `,
   Img: styled.img`
-    width: 27vh;
+    width: 29.4vh;
   `,
   Text: styled.div`
     display: flex;

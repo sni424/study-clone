@@ -2,6 +2,7 @@ import { useState } from 'react'
 import {S} from './style'
 import left from '../../asset/image/bt-left.png'
 import right from '../../asset/image/bt-right.png'
+import samsung from '../../asset/image/company-logo_1.png'
 
 const ReProject = () => {
 
@@ -24,12 +25,31 @@ const ReProject = () => {
             </S.ButtonDiv>
         </S.FirstDiv>
         <S.SecondDiv slideIndex={slideIndex}>
-            <S.ProjectDiv color="blue" />
-            <S.ProjectDiv  color="blue" />
-            <S.ProjectDiv color="blue" />
-            <S.ProjectDiv color="red" />
-            <S.ProjectDiv color="red" />
-            <S.ProjectDiv color="red" />
+            <S.ProjectDiv >
+              <S.UpDiv>
+                <S.BackImg url={samsung}></S.BackImg>
+              </S.UpDiv>
+              <S.DownDiv />
+              </S.ProjectDiv>
+              <S.ProjectDiv >
+              <S.UpDiv />
+              <S.DownDiv />
+              </S.ProjectDiv>            <S.ProjectDiv >
+              <S.UpDiv />
+              <S.DownDiv />
+              </S.ProjectDiv>            <S.ProjectDiv >
+              <S.UpDiv />
+              <S.DownDiv />
+              </S.ProjectDiv>            <S.ProjectDiv >
+              <S.UpDiv />
+              <S.DownDiv />
+              </S.ProjectDiv>            <S.ProjectDiv >
+              <S.UpDiv />
+              <S.DownDiv />
+              </S.ProjectDiv>            <S.ProjectDiv >
+              <S.UpDiv />
+              <S.DownDiv />
+              </S.ProjectDiv>
         </S.SecondDiv>
     </S.Container>
   )

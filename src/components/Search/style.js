@@ -8,7 +8,7 @@ export const S = {
   `,
 
   InputForm: styled.form`
-    width: 60%;
+    width: 62%;
     height: 9vh;
     display: flex;
     align-items: center;

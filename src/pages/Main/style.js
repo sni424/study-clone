@@ -15,7 +15,7 @@ export const S = {
   `,
   SecondDiv: styled.div`
     padding-top: 70px;
-    width: 60%;
+    width: 62%;
     margin: 0 auto;
     display: flex;
     align-items: end;
@@ -34,7 +34,7 @@ export const S = {
     padding-left: 30px;
   `,
   ThirdDiv: styled.div`
-    width: 60%;
+    width: 62%;
     margin: 0 auto;
   `,
 };
