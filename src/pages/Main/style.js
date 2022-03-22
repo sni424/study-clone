@@ -12,6 +12,7 @@ export const S = {
     background-size: 120%;
     background-repeat: no-repeat;
     background-position: center;
+    border-bottom: 1px solid #d3d3d3;
   `,
   SecondDiv: styled.div`
     padding-top: 70px;
