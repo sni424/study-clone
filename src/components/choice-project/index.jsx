@@ -15,9 +15,15 @@ const ChoiceProject = () => {
                 )
             })}
         </S.UlTag>
+
         {eCard.map((item) =>{
             return (
                 <S.EcardDiv key={item}>
+                            <S.HeartBackDiv>
+                    <S.HearDiv>
+                    🤍
+                    </S.HearDiv>
+                  </S.HeartBackDiv>
                     <S.FirstDiv>
                     <S.EcardUlTag>
                         {blackLi.map((title)=>{
@@ -36,10 +42,20 @@ const ChoiceProject = () => {
                         현재설계개발상태운영중인시스템의고도화프로젝트입니다.<br />
                         담당업무...
                     </S.Ptag>
+                    <S.SubDiv>
+                            <S.BigSpan>
+                                <S.NumberTag>0명</S.NumberTag>
+                                <S.TextpTag>이찜했습니다!</S.TextpTag>
+                            </S.BigSpan>
+                            <S.DaySpan>마감17일전</S.DaySpan>
+                    </S.SubDiv>
                     </S.FirstDiv>
                 </S.EcardDiv>
             )
         })}
+        <S.LastDiv>
+            <S.LastSpan>더보기</S.LastSpan>
+        </S.LastDiv>
     </S.Container>
   )
 }
