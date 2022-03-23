@@ -25,19 +25,21 @@ export const S = {
   `,
   HeartBackDiv: styled.div`
     padding: 5px;
-    width: 2.5%;
-    height: 15px;
+    width: 3%;
+    height: 20px;
     border-radius: 50%;
     text-align: center;
-    background-color: #9e9e9e;
+    background-color: #f5f5f5;
     display: flex;
     align-items: center;
     justify-content: center;
     position: absolute;
     margin: 15px 0 0 90%;
+    cursor: pointer;
   `,
   HearDiv: styled.div`
-    font-size: 13px;
+    font-size: 15px;
+    color: #9e9e9e;
     text-align: center;
   `,
   EcardDiv: styled.div`
@@ -55,6 +57,7 @@ export const S = {
     width: 92%;
     height: 80%;
     margin: 0 0 0 25px;
+    cursor: pointer;
   `,
   EcardUlTag: styled.ul`
     display: flex;
@@ -116,12 +119,6 @@ export const S = {
   TextpTag: styled.p`
     color: #9e9e9e;
   `,
-  LastSpan: styled.span`
-    border: 2px solid #d7d7d7;
-    border-radius: 25px;
-    padding: 8px 15px;
-    font-weight: 600;
-  `,
   DaySpan: styled.span`
     background-color: #e85656;
     color: white;
@@ -129,5 +126,16 @@ export const S = {
     letter-spacing: 1px;
     padding: 5px;
     border-radius: 5px;
+  `,
+  LastSpan: styled.span`
+    border: 2px solid #d7d7d7;
+    border-radius: 25px;
+    padding: 8px 15px;
+    font-weight: 600;
+    cursor: pointer;
+    &:hover {
+      border: 2px solid black;
+      background-color: #d7d7d7;
+    }
   `,
 };
