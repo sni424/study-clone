@@ -123,7 +123,8 @@ export const S = {
   `,
   Ptag: styled.p`
     color: #a5a5a5;
-    margin-top: 20%;
-    font-size: 0.8rem;
+    top: 80%;
+    font-size: 80%;
+    position: absolute;
   `,
 };

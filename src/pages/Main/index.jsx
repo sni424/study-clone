@@ -4,8 +4,9 @@ import programmer from '../../asset/image/programmer.png'
 import {S} from "./style";
 import Count from "../../components/count";
 import Footer from "../../components/Footer";
-import Eblock from "../../components/arround-projuect";
+import Eblock from "../../components/arround-project";
 import ReProject from "../../components/recommend-project";
+import ChoiceProject from "../../components/choice-project";
 
 const Main = () => {
   return (
@@ -26,6 +27,7 @@ const Main = () => {
       <Count />
       <Eblock />
       <ReProject />
+      <ChoiceProject />
       </S.ThirdDiv>
       <Footer />
     </S.Container>
