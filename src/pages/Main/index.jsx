@@ -8,10 +8,12 @@ import Eblock from "../../components/arround-project";
 import ReProject from "../../components/re-project";
 import ChoiceProject from "../../components/choice-project";
 import ReFreelancer from "../../components/re-freelancer";
+import MenuBar from "../../components/menubar";
 
 const Main = () => {
   return (
     <S.Container >
+      <MenuBar />
       <S.BackImg>
       <Header />
       <SearchBar />

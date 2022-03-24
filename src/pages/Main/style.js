@@ -5,6 +5,9 @@ export const S = {
   Container: styled.div`
     width: 100%;
     height: 100%;
+    z-index: 0;
+    position: relative;
+    overflow: hidden;
   `,
   BackImg: styled.div`
     background-image: url(${mainbg});
