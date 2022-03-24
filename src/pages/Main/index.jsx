@@ -5,8 +5,9 @@ import {S} from "./style";
 import Count from "../../components/count";
 import Footer from "../../components/Footer";
 import Eblock from "../../components/arround-project";
-import ReProject from "../../components/recommend-project";
+import ReProject from "../../components/re-project";
 import ChoiceProject from "../../components/choice-project";
+import ReFreelancer from "../../components/re-freelancer";
 
 const Main = () => {
   return (
@@ -28,6 +29,7 @@ const Main = () => {
       <Eblock />
       <ReProject />
       <ChoiceProject />
+      <ReFreelancer />
       </S.ThirdDiv>
       <Footer />
     </S.Container>

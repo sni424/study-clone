@@ -38,7 +38,7 @@ const ReProject = () => {
             <h1>추천 프로젝트</h1>
             <S.ButtonDiv>
                 <S.Img src={left} alt="left" direction="left" onClick={() => handleClick('left')}/>
-                <S.Img src={right} alt="right" direction="right" onClick={() => handleClick('left')}/>
+                <S.Img src={right} alt="right" direction="right" onClick={() => handleClick('right')}/>
             </S.ButtonDiv>
         </S.FirstDiv>
         <S.SecondDiv slideIndex={slideIndex}>

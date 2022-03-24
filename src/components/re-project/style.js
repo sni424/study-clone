@@ -81,6 +81,7 @@ export const S = {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
   `,
   HearDiv: styled.div`
     font-size: 13px;

@@ -35,12 +35,12 @@ export const S = {
     justify-content: center;
     position: absolute;
     margin: 15px 0 0 90%;
-    cursor: pointer;
   `,
   HearDiv: styled.div`
     font-size: 15px;
     color: #9e9e9e;
     text-align: center;
+    cursor: pointer;
   `,
   EcardDiv: styled.div`
     width: 100%;
