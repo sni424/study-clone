@@ -39,7 +39,7 @@ export const S = {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     background-color: ${(props) => props.color};
-    border: 2px solid ${props=>props.border};
+    border: 2px solid ${(props) => props.border};
   `,
   DownDiv: styled.div`
     height: 50%;
@@ -91,16 +91,8 @@ export const S = {
     margin: 0 auto;
   `,
   MiniSpan: styled.span`
-    color: #ff6b6b;
-    border: 1px solid #ff6b6b;
-    border-radius: 5px;
-    font-size: 0.7rem;
-    padding: 3px;
-    margin-right: 6px;
-  `,
-  MiniSecond: styled.span`
     color: white;
-    background-color: #707070;
+    border: 1px solid white;
     border-radius: 5px;
     font-size: 0.6rem;
     letter-spacing: 1px;
@@ -113,11 +105,19 @@ export const S = {
     position: relative;
     top: 15%;
   `,
+  FlexDiv: styled.div`
+    width: 110%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 80%;
+  `,
   Ptag: styled.p`
     color: #a5a5a5;
     top: 80%;
     font-size: 80%;
-    position: absolute;
+    font-weight: 200;
   `,
   LastDiv: styled.div`
     width: 100%;
