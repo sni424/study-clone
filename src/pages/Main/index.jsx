@@ -1,5 +1,5 @@
-import { useState } from "react";
 import {S} from "./style";
+import useStore from "../../zustand";
 import Header from "../../components/Header";
 import SearchBar from "../../components/Search";
 import programmer from '../../asset/image/programmer.png'
@@ -13,7 +13,8 @@ import MenuBar from "../../components/menubar";
 import Blind from "../../components/blind";
 
 const Main = () => {
-  const [show,setShow] = useState(true);
+
+  const show = useStore(state => state.show)
 
   return (
     <S.Container >
