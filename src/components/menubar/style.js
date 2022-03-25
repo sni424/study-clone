@@ -2,39 +2,36 @@ import styled from "styled-components";
 
 export const S = {
   Container: styled.div`
-    top: 0;
-    width: 100%;
-    height: 700px;
-    background-color: gray;
-    opacity: 0.2;
-    z-index: 98;
-    position: absolute;
-  `,
-  FirstDiv: styled.div`
     width: 210px;
     height: 253px;
     border: 1px solid white;
     z-index: 99;
-    background: black;
+    background: white;
     border-radius: 15px;
     left: 74%;
+    z-index: 99;
+    position: absolute;
+    margin: 125px 0 0 -120px;
   `,
   Ultag: styled.ul`
     list-style: none;
     width: 95%;
     height: 95%;
     margin: 25px 0 0 -20px;
-    color: white;
+    color: black;
     font-size: 14px;
   `,
   UpLiTag: styled.li`
     padding-bottom: 8px;
+    font-weight: 300;
   `,
   LineTag: styled.li`
     width: 85%;
     border-bottom: 0.1rem solid #e1e1e1;
+    margin: 8px 0;
   `,
   DownLiTag: styled.li`
     padding-top: 10px;
+    font-weight: 600;
   `,
 };

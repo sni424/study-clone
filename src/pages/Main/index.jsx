@@ -1,7 +1,8 @@
+import { useState } from "react";
+import {S} from "./style";
 import Header from "../../components/Header";
 import SearchBar from "../../components/Search";
 import programmer from '../../asset/image/programmer.png'
-import {S} from "./style";
 import Count from "../../components/count";
 import Footer from "../../components/Footer";
 import Eblock from "../../components/arround-project";
@@ -9,11 +10,18 @@ import ReProject from "../../components/re-project";
 import ChoiceProject from "../../components/choice-project";
 import ReFreelancer from "../../components/re-freelancer";
 import MenuBar from "../../components/menubar";
+import Blind from "../../components/blind";
 
 const Main = () => {
+  const [show,setShow] = useState(true);
+
   return (
     <S.Container >
+      {show === false &&
+      <>
+      <Blind />
       <MenuBar />
+      </>}
       <S.BackImg>
       <Header />
       <SearchBar />
@@ -26,7 +34,9 @@ const Main = () => {
         </S.TextDiv>
       </S.SecondDiv>
       </S.BackImg>
-<S.ThirdDiv>
+      {show === true &&
+      <>
+      <S.ThirdDiv>
       <Count />
       <Eblock />
       <ReProject />
@@ -34,6 +44,8 @@ const Main = () => {
       <ReFreelancer />
       </S.ThirdDiv>
       <Footer />
+      </>
+      }
     </S.Container>
   )
 }
