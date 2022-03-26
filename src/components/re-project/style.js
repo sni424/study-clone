@@ -26,7 +26,7 @@ export const S = {
     justify-content: start;
     overflow-x: hidden;
     transition: all 1.5s ease;
-    transform: translateX(${(props) => props.slideIndex * -61}vw);
+    transform: translateX(${(props) => props.slideIndex * -50}vw);
   `,
   ProjectDiv: styled.div`
     width: 8.8%;

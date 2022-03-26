@@ -8,8 +8,8 @@ export const S = {
   `,
 
   InputForm: styled.form`
-    width: 62%;
-    height: 9vh;
+    width: 43%;
+    height: 63px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -32,7 +32,7 @@ export const S = {
     font-weight: bold;
     font-size: 18px;
     &::placeholder {
-      font-size: 18px;
+      font-size: 21px;
       font-weight: 600;
     }
   `,

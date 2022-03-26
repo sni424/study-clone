@@ -1,5 +1,4 @@
-import { useState } from "react";
-import { S } from "./style";
+import {S} from './style'
 
 const MenuBar = () => {
     return (

@@ -2,15 +2,14 @@ import styled from "styled-components";
 
 export const S = {
   HeaderDiv: styled.div`
-    width: 62%;
-    height: 100%;
+    width: 43%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 35px auto;
   `,
   Img: styled.img`
-    width: 29.4vh;
+    width: 15.4vh;
   `,
   Text: styled.div`
     display: flex;
@@ -20,7 +19,7 @@ export const S = {
   ThreeTag: styled.div`
     padding: 0 5px;
     cursor: pointer;
-    font-size: 15.75px;
+    font-size: 1.1rem;
     font-weight: 800;
   `,
   Menu: styled.div`

@@ -7,7 +7,7 @@ export const S = {
     background-color: #3c3c3c;
   `,
   SecondDiv: styled.div`
-    width: 60%;
+    width: 43%;
     height: 100%;
     margin: 0 auto;
     position: relative;
@@ -23,6 +23,7 @@ export const S = {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: -15px 0 40px 0;
   `,
   Fifth: styled.div`
     display: inline-flex;
@@ -32,7 +33,7 @@ export const S = {
     color: #b7b7b7;
   `,
   Img: styled.img`
-    width: 8rem;
+    width: 7rem;
   `,
   Span: styled.span`
     color: #8c8c8c;

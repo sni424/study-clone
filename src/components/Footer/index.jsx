@@ -28,9 +28,7 @@ const Footer = () => {
                 <S.ThirdDiv>
                     <S.FourthDiv>
                         <p>
-                            <a href="#">
                                 <S.Img src={Logo} alt="footer-logo" />
-                            </a>
                             <br />
                             <S.Span>
                                 Copyright © 2000 - 2022 ELANCER All Rights

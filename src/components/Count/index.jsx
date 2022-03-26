@@ -1,6 +1,6 @@
-import { useState } from "react";
-import { S } from "./style";
-import CountUp from "react-countup";
+
+import {S} from './style'
+import CountUp from 'react-countup';
 
 const Count = () => {
     return (
